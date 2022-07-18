@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgb(241, 240, 233);
+}
+
+.outermost {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    min-width: 320px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+    background-color: cornsilk;
+}
+
+input {
+    padding: 7px;
+    text-transform: capitalize;
+    border: transparent;
+    outline: none;
+    border-bottom: 2px solid peru;
+    font-size: 1.2rem;
+}
+
+h1 {
+    margin: 0;
+    padding: 9px;
+    width: 100%;
+    background-color: blanchedalmond;
+    letter-spacing: .3rem;
+}
+ol {
+    margin-top: 25px;
+}
+
+ol li {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 9px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+li button {
+    margin-left: 10px;
+}
+.add-btn {
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: rgb(205, 203, 228);
+}
+
+.add-btn:hover {
+    background-color: green;
+    transform: scale(1.1);
+}
+
+.del-btn {
+    padding: 3px;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: rgb(231, 224, 224);
+}
+
+.del-btn:hover {
+    background-color: red;
+    transform: scale(1.1);
+}
